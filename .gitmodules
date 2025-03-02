@@ -1,3 +1,6 @@
 [submodule "attck-planner"]
 	path = attck-planner
 	url = https://github.com/cmndcntrlcyber/attck-planner.git
+[submodule "attck-pe"]
+	path = attck-pe
+	url = https://github.com/cmndcntrlcyber/attck-pe.git
