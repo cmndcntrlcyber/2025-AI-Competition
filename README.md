@@ -2,7 +2,19 @@
 
 ## Environment Configuration
 
+### Ollama
+
+[Local AI Setup](https://cmndcntrl.notion.site/local-ai-setup)
+
+#### Models
+
+### Cloudflare AI Workers
+
+### Prompts
+
 ### Secret Management
+
+#### Vaultwarden
 
 ## Tools
 
