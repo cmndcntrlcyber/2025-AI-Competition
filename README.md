@@ -34,4 +34,6 @@
 
 ## Executor
 
+[ATT&CK-PE (Portable Executor)](https://cmndcntrl.notion.site/portable-executor)
+
 ### *TODO*
