@@ -8,11 +8,14 @@
 
 #### Models
 
+[qwen2.5-coder:7b](https://ollama.com/library/qwen2.5-coder)
+[deepseek-r1:7b](https://ollama.com/library/deepseek-r1)
+
 ### Cloudflare AI Workers
 
 [deepseek-r1-distill-qwen-32b](https://developers.cloudflare.com/workers-ai/models/deepseek-r1-distill-qwen-32b/)
 
-### Prompts
+### Modelfiles
 
 ### Secret Management
 
