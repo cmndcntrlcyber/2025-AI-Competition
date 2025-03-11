@@ -10,6 +10,8 @@
 
 ### Cloudflare AI Workers
 
+[deepseek-r1-distill-qwen-32b](https://developers.cloudflare.com/workers-ai/models/deepseek-r1-distill-qwen-32b/)
+
 ### Prompts
 
 ### Secret Management
