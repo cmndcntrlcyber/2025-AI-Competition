@@ -4,3 +4,6 @@
 [submodule "attck-pe"]
 	path = attck-pe
 	url = https://github.com/cmndcntrlcyber/attck-pe.git
+[submodule "pentest-agent-system"]
+	path = pentest-agent-system
+	url = https://github.com/youngsecurity/pentest-agent-system
