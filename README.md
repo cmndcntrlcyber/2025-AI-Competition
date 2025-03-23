@@ -87,7 +87,7 @@ Cloudflare AI Workers
 
 ## Researcher
 
-- Submodule: [pentest-agent-system/Security Analyst Agent](./pentest-agent-system/python/modules/)
+- Submodule: [pentest-agent-system/Security Analyst Agent](./pentest-agent-system/python/modules/security_analyst_agent.py)
 
 ## Orchestration Agent
 
@@ -96,13 +96,12 @@ Cloudflare AI Workers
 ## Planner
 
 - [ATT&CK PLANNER](https://github.com/cmndcntrlcyber/attck-planner)
-- Submodule: pentest-agent-system/Security Analyst Agent
+- Submodule: [pentest-agent-system/Security Analyst Agent](./pentest-agent-system/python/modules/security_analyst_agent.py)
 
 ## Executor
 
 - [ATT&CK-PE (Portable Executor)](https://cmndcntrl.notion.site/portable-executor)
-- Submodule: pentest-agent-system/Orchestrator Agent
-  - Executor Agent in development.
+- Submodule: [pentest-agent-system/Metasploit Agent](./pentest-agent-system/python/modules/metasploit_agent.py)
 
 ## LLM-based Agents in the Pentest-Agent-System
 
