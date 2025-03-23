@@ -87,36 +87,36 @@ Cloudflare AI Workers
 
 ## Researcher
 
-- Submodule: [pentest-agent-system/Security Analyst Agent](./pentest-agent-system/python/modules/security_analyst_agent.py)
+- Submodule: [pentest-agent-system/Security Analyst Agent](https://github.com/youngsecurity/pentest-agent-system/blob/main/python/modules/security_analyst_agent.py)
 
 ## Orchestration Agent
 
-- Submodule: pentest-agent-system/Orchestrator Agent
+- Submodule: [pentest-agent-system/Orchestrator Agent](https://github.com/youngsecurity/pentest-agent-system/blob/main/python/main.py)
 
 ## Planner
 
 - [ATT&CK PLANNER](https://github.com/cmndcntrlcyber/attck-planner)
-- Submodule: [pentest-agent-system/Security Analyst Agent](./pentest-agent-system/python/modules/security_analyst_agent.py)
+- Submodule: [pentest-agent-system/Security Analyst Agent](https://github.com/youngsecurity/pentest-agent-system/blob/main/python/modules/security_analyst_agent.py)
 
 ## Executor
 
 - [ATT&CK-PE (Portable Executor)](https://cmndcntrl.notion.site/portable-executor)
-- Submodule: [pentest-agent-system/Metasploit Agent](./pentest-agent-system/python/modules/metasploit_agent.py)
+- Submodule: [pentest-agent-system/Metasploit Agent](https://github.com/youngsecurity/pentest-agent-system/blob/main/python/modules/metasploit_agent.py)
 
 ## LLM-based Agents in the Pentest-Agent-System
 
-![pentest-agent-system](./pentest-agent-system/docs/pentest-agent-system.png)
+![pentest-agent-system](https://raw.githubusercontent.com/youngsecurity/pentest-agent-system/refs/heads/main/docs/pentest-agent-system.png)
 
 The system follows a hybrid approach:
 
 - The Python implementation uses LLM-based agents with a Streamlit UI
 - The Deno implementation uses a structured multi-agent architecture
 
-![workflow-diagram](./pentest-agent-system/docs/workflow-diagram.png)
+![workflow-diagram](https://raw.githubusercontent.com/youngsecurity/pentest-agent-system/refs/heads/main/docs/workflow-diagram.png)
 
 ### Architecture Overview
 
-![data-flow-diagram](./pentest-agent-system/docs/data-flow-diagram.png)
+![data-flow-diagram](https://raw.githubusercontent.com/youngsecurity/pentest-agent-system/refs/heads/main/docs/data-flow-diagram.png)
 
 LLM-based agents are being used in several places in this repository:
 
