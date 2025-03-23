@@ -4,7 +4,7 @@
 
 ## Challenge Overview
 
-The Agentic AI Innovation Challenge celebrates groundbreaking developments in AI agent technologies and frameworks. We invite participants to showcase projects that demonstrate novel approaches to autonomous agents, structured LLM workflows, task automation, and multi-agent systems. Whether you are building sophisticated autonomous agents or creating innovative prompt engineering frameworks, this challenge welcomes all forms of agentic AI innovation.
+The Agentic AI Innovation Challenge celebrates groundbreaking developments in AI agent technologies and frameworks. We were invited as participants to showcase projects that demonstrate novel approaches to autonomous agents, structured LLM workflows, task automation, and multi-agent systems. Whether you are building sophisticated autonomous agents or creating innovative prompt engineering frameworks, this challenge welcomes all forms of agentic AI innovation.
 
 ## Project Categories
 
@@ -43,7 +43,8 @@ These categories are examples - we welcome all innovative approaches in agentic 
 - Judging Period: March 26th, 2025 - April 20th, 2025
 - Winners Announced: April 21st, 2025, 11:59 PM UTC
 
-**This project is maintaining multiple implementations for different use cases.**
+> **Note!**
+> This project is maintaining multiple implementations for different use cases.
 
 ## Environment Configuration
 
