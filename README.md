@@ -1,6 +1,49 @@
-# For the [Ready Tensor Agentic AI 2025 Competition](https://www.readytensor.ai/agentic-ai-2025/)
+# [Ready Tensor Agentic AI Innovation Challenge 2025](https://www.readytensor.ai/agentic-ai-2025/)
 
-This project is maintaining multiple implementations for different use cases.
+![agentic-ai-innovation-challenge-2025](https://www.readytensor.ai/images/competition/agentic-ai-dall-e.webp)
+
+## Challenge Overview
+
+The Agentic AI Innovation Challenge celebrates groundbreaking developments in AI agent technologies and frameworks. We invite participants to showcase projects that demonstrate novel approaches to autonomous agents, structured LLM workflows, task automation, and multi-agent systems. Whether you are building sophisticated autonomous agents or creating innovative prompt engineering frameworks, this challenge welcomes all forms of agentic AI innovation.
+
+## Project Categories
+
+Core Technologies:
+
+- Agent architectures and frameworks (AutoGPT, BabyAGI, etc.)
+- LLM workflow systems (LangChain, LlamaIndex, etc.)
+- Task planning and decomposition frameworks
+- Tool use and API integration systems
+- Chain-of-thought and structured prompting
+- Memory and context management
+- Multi-agent communication and coordination
+
+Implementation Approaches:
+
+- Single-agent systems with advanced capabilities
+- Multi-agent collaborative systems
+- Prompt engineering frameworks
+- Task routing and decomposition systems
+
+Application Domains:
+
+- Personal AI assistants, copilots and chatbots
+- Code generation and development automation
+- Data analysis and research automation
+- Business process optimization
+- Educational and training systems
+- Creative and generative projects
+
+These categories are examples - we welcome all innovative approaches in agentic AI, from sophisticated autonomous agents to novel LLM workflow frameworks.
+
+## Timeline
+
+- Submission Start Date: February 10th, 2025, 12:00 AM UTC
+- Submission Deadline: March 25th, 2025, 11:59 PM UTC
+- Judging Period: March 26th, 2025 - April 20th, 2025
+- Winners Announced: April 21st, 2025, 11:59 PM UTC
+
+**This project is maintaining multiple implementations for different use cases.**
 
 ## Environment Configuration
 
@@ -17,19 +60,21 @@ This project is maintaining multiple implementations for different use cases.
 - Ollama
   - [Local AI Setup](https://cmndcntrl.notion.site/local-ai-setup)
 
-### Models
+## Models
 
 The pentest-agent-system submodule can be extended to include support for more model providers. The current implementation features support for multiple models from OpenAI or Anthropic.
 
 - [Antrhopic](https://anthropic.com)
 - [OpenAI](https://openai.com)
 
-[qwen2.5-coder:7b](https://ollama.com/library/qwen2.5-coder)
-[deepseek-r1:7b](https://ollama.com/library/deepseek-r1)
+Ollama
 
-### Cloudflare AI Workers
+- [qwen2.5-coder:7b](https://ollama.com/library/qwen2.5-coder)
+- [deepseek-r1:7b](https://ollama.com/library/deepseek-r1)
 
-[deepseek-r1-distill-qwen-32b](https://developers.cloudflare.com/workers-ai/models/deepseek-r1-distill-qwen-32b/)
+Cloudflare AI Workers
+
+- [deepseek-r1-distill-qwen-32b](https://developers.cloudflare.com/workers-ai/models/deepseek-r1-distill-qwen-32b/)
 
 ## Tools
 
@@ -41,7 +86,7 @@ The pentest-agent-system submodule can be extended to include support for more m
 
 ## Researcher
 
-- Submodule: pentest-agent-system/Security Analyst Agent
+- Submodule: [pentest-agent-system/Security Analyst Agent](./pentest-agent-system/python/modules/)
 
 ## Orchestration Agent
 
@@ -60,12 +105,18 @@ The pentest-agent-system submodule can be extended to include support for more m
 
 ## LLM-based Agents in the Pentest-Agent-System
 
+![pentest-agent-system](./pentest-agent-system/docs/pentest-agent-system.png)
+
 The system follows a hybrid approach:
 
-The Python implementation uses LLM-based agents with a Streamlit UI
-The Deno implementation uses a structured multi-agent architecture
+- The Python implementation uses LLM-based agents with a Streamlit UI
+- The Deno implementation uses a structured multi-agent architecture
+
+![workflow-diagram](./pentest-agent-system/docs/workflow-diagram.png)
 
 ### Architecture Overview
+
+![data-flow-diagram](./pentest-agent-system/docs/data-flow-diagram.png)
 
 LLM-based agents are being used in several places in this repository:
 
@@ -106,4 +157,4 @@ The pentest-agent-system submodule repository also contains a Deno/TypeScript im
    - Executor Agent: Executes attack plans against target systems
      - Implemented as `ExploitExecutorAgent` in `agents/executor.ts`
 
-The TypeScript implementation appears is more focused on structured, rule-based agents following the MITRE ATT&CK framework.
+The TypeScript implementation is more focused on structured, rule-based agents following the MITRE ATT&CK framework.
